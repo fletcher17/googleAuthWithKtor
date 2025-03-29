@@ -1,2 +1,2 @@
-web: build/install/com.example.googleAuth/bin/com.example.googleAuth
+web: build/install/googleAuth/bin/googleAuth
 worker: python scheduler.py
