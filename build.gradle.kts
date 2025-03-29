@@ -18,8 +18,8 @@ application {
     applicationDefaultJvmArgs = listOf("-Dio.ktor.development=$isDevelopment")
 }
 
-tasks.create("stage") {
-    dependsOn("installDist")
+tasks {
+    create("stage").dependsOn("installDist")
 }
 
 repositories {
